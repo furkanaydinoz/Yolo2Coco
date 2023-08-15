@@ -4,11 +4,11 @@
 
 ## About
 
-This repo is for converting Yolov8 PyTorch Txt format data to Coco format. The repo was created because open source labeling tools such as Label-Studio or Labelme do not support directly importing the corresponding Yolo format. 
+This repo is for converting Yolov8 PyTorch Txt format data to Coco format. The repo was created because open source labeling tools such as Label-Studio (-https://github.com/HumanSignal/label-studio) or Labelme do not support directly importing the corresponding Yolo format. 
 
 Once the relevant output has been created, <label-studio-converter> can be used for Label-Studio. In this way, the output of the model can be imported into Label-Studio and a kind of automatic labeling process can be performed. 
 
-The system, which is currently developed for Yolov8 segmentation datasets, will also be developed for Yolo object detection.
+The system, which is currently developed for Yolov8 (-https://github.com/ultralytics/ultralytics) segmentation datasets, will also be developed for Yolo object detection.
 
 For any questions, please contact us at furkanaydinoz01@gmail.com.
 
