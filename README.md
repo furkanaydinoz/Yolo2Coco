@@ -1,4 +1,7 @@
 # Yolo2Coco
+
+
+
 ## About
 
 This repo is for converting Yolov8 PyTorch Txt format data to Coco format. The repo was created because open source labeling tools such as Label-Studio or Labelme do not support directly importing the corresponding Yolo format. 
@@ -9,7 +12,7 @@ The system, which is currently developed for Yolov8 segmentation datasets, will 
 
 For any questions, please contact us at furkanaydinoz01@gmail.com.
 
-Translated with www.DeepL.com/Translator (free version)
 
-### Usage
+## Usage
+
 * python yolo2coco.py --model_path <path/to/model> --image_path <path/to/image/folder> --json_save_path  <path/to/json> --classes_file_path  <path/to/classes/file> --convert_type from-model or from-txt --labels_path  <path/to/label/folder> 
