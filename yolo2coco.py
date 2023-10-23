@@ -108,7 +108,7 @@ class Yolo2Coco():
             if labels := self.readFile(self.labelsPath + labelFile):
                 img = cv2.imread(self.imagePath + imageFile['file_name'])
                 for label in labels:
-                    polygonPoints = label[:-1].split(" ")[1:]
+                    polygonPoints = label.split(" ")[1:]
                     coord = self.toPixelCoords(polygonPoints, img.shape[:2])
                     coord = np.array(polygonPoints, np.int32).reshape((-1, 1, 2))
                     bbox = cv2.boundingRect(coord)
